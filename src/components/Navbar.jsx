@@ -11,8 +11,16 @@ export const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m8 flex item-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a
+          href="https://www.linkedin.com/in/jaydeep-rathod-it19/"
+          target="_blank"
+        >
+          {" "}
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/jaydeeprathod20" target="_blank">
+          <FaGithub />
+        </a>
         <FaInstagram />
         <FaSquareXTwitter />
       </div>
